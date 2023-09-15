@@ -7,5 +7,5 @@ if(isset($_SESSION['username'])){
   echo '<a href="logout.php">Logout</a>';
 } else {
   echo '<h1>Welcome Guest</h1>';
-  echo '<a href="/php-crash/12_sessions">Home</a>';
+  echo '<a href="/php-crash/12_sessions.php">Home</a>';
 }
